@@ -65,3 +65,68 @@ nav{
     transition: 0.7s;
     color: #ffffff;
 }
+
+.main-banner{
+    background-image: url("../img/OIG4.jpg");
+    background-size: cover;
+    background-position: 100%;
+
+    padding: 10rem 0;
+}
+
+.main-banner h1,
+.main-banner p{
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #000 3px 2px 3px;
+}
+
+.main-banner h1{
+    font-size: 54px;
+}
+
+.main-banner p{
+    font-size: 32px;
+}
+
+/*Services*/
+.services-container{
+    padding: 5rem 0;
+}
+
+.services-container ul{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.services-container li{
+    flex: 1 1 200px;
+    list-style: none;
+    padding: 20px;
+}
+.fas{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.fa-shield-alt{
+    color: #06fc89;
+}
+
+.fa-rocket{
+    color: #ec4218;
+}
+
+.fa-comments{
+    color: #0066ff;
+}
+
+.services-container h3{
+    margin-bottom: 25px;
+}
+
+.services-container p{
+    line-height: 24px;
+}

@@ -206,3 +206,50 @@ nav{
     color: #ffffff;
 }
 
+/*search domain*/
+
+.search-container{
+    background-color: #34454e;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.search-container h2{
+    color: #fff;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.search-container p{
+    color: #d5d5d5;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.search-container input{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.search-container input[type="text"]{
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.search-container input[type="submit"]{
+    background-color: #06fc89;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.search-container input[type="submit"]:hover{
+    background-color: #c2c2c2;
+    transition: 0.5s;
+    color: #ffffff;
+}
